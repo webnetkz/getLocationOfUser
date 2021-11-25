@@ -40,10 +40,6 @@ echo ('country: '.$city['country']['name_en'].'<br>');
 echo ('country iso: '.$city['country']['iso'].'<br>');
 echo ('country code: '.$city['country']['id'].'<br>');
 
-echo '<img
-src="https://flagcdn.com/16x12/'.strlower($city['country']['iso']).'.png"
-srcset="https://flagcdn.com/32x24/'.strlower($city['country']['iso']).'.png 2x,
-  https://flagcdn.com/48x36/'.strlower($city['country']['iso']).'.png 3x"
-width="16"
-height="12"
-alt="South Africa">';
+echo '<img src="https://flagcdn.com/16x12/'.strlower($city['country']['iso']).'.png">';
+//srcset="https://flagcdn.com/32x24/'.strlower($city['country']['iso']).'.png
+//https://flagcdn.com/48x36/'.strlower($city['country']['iso']).'.png 3x"
